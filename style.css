@@ -1,0 +1,115 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%; /*10px = 1rem*/
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    top: 0;
+    color: #fff;
+    font-size: 2em;
+    height: 100vh;
+    background: url("img/header.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.25);
+    top: 0;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+.buscar {
+    width: 500px;
+    margin-left: 15px;
+    border: 1px solid #eee;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+
+.header ul {
+    display: flex;
+}
+
+.header li {
+    font-weight: lighter;
+    list-style: none;
+    display: block;
+    margin-left: 70px;
+}
+
+.header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    transition: all 300ms;
+}
+
+.nav a:hover {
+    color: #17cc2d;
+    transform: scale(1.3, 1.3);
+}
+
+
+/* main */
+.nav-profes {
+    height: 150px;
+    padding: 0 80px;
+    margin-top: 80px;
+    position: absolute;
+    top: 80px;
+}
+
+.nav-profes section {
+    width: 715px;
+    height: 248px;
+}
+
+.nav-profes h2 {
+    line-height: 75px;
+    font-size: 6em;
+    color: #fff;
+}
+
+.nav-profes p {
+    margin-top: 10px;
+    font-size: 2em;
+    color: #fff;
+}
+
+.nav-profes .link {
+    margin-top: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #138520ce;
+    border: 1px solid #AEBBFF;
+    border-radius: 4px;
+    width: 219px;
+    height: 56px;
+    padding: 10px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
