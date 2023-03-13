@@ -16,9 +16,9 @@ body {
     text-align: center;
     top: 0;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.6em;
     height: 100vh;
-    background: url("img/header.png");
+    background: url("img/fondo.png");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -26,7 +26,7 @@ body {
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: sticky;
     width: 100%;
@@ -42,9 +42,9 @@ body {
     width: 500px;
     margin-left: 15px;
     border: 1px solid #eee;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 20px;
-    padding: 10px;
+    padding: 6px;
     outline: none;
 }
 
@@ -58,6 +58,7 @@ body {
     list-style: none;
     display: block;
     margin-left: 70px;
+    
 }
 
 .header a {
@@ -68,8 +69,8 @@ body {
 }
 
 .nav a:hover {
-    color: #17cc2d;
-    transform: scale(1.3, 1.3);
+    color: #5d72e3;
+    transform: scale(1.5, 1.5);
 }
 
 
@@ -87,6 +88,9 @@ body {
     height: 248px;
 }
 
+.nav-profes span {
+    color: #AEBBFF;
+}
 .nav-profes h2 {
     line-height: 75px;
     font-size: 6em;
@@ -100,11 +104,11 @@ body {
 }
 
 .nav-profes .link {
-    margin-top: 40px;
+    margin-top: 30px;
     text-decoration: none;
     cursor: pointer;
     color: #fff;
-    background-color: #138520ce;
+    background-color: #5d72e3;
     border: 1px solid #AEBBFF;
     border-radius: 4px;
     width: 219px;
@@ -112,4 +116,21 @@ body {
     padding: 10px;
     font-size: 1.4em;
     font-weight: 600;
+    transition: all 300ms;
+}
+
+.nav-profes .link:hover {
+    background-color: #0d28aa;
+}
+
+.stars img {
+    
+}
+
+.stars p {
+    
+}
+
+.comments img{
+    
 }
